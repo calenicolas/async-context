@@ -1,0 +1,37 @@
+{
+  "name": "async-context",
+  "version": "0.1.0",
+  "description": "Async version that allows the use of mobile-adk_context",
+  "main": "index.js",
+  "scripts": {
+    "test": "export NODE_ENV=test; node_modules/mocha/bin/mocha --check-leaks --recursive test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/calenicolas/async-context.git"
+  },
+  "keywords": [
+    "async",
+    "context",
+    "mobile-adk_context"
+  ],
+  "author": "calenicolas (claudio.ale@mercadolibre.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/calenicolas/async-context/issues"
+  },
+  "homepage": "https://github.com/calenicolas/async-context#readme",
+  "dependencies": {
+    "async": "1.5.2",
+    "async-utils": "0.0.3",
+    "lodash": "4.15.0",
+    "mobile-adk_context": "0.0.2"
+  },
+  "devDependencies": {
+    "mocha": "3.0.2",
+    "should": "11.1.0"
+  },
+  "engines": {
+    "node": ">= 0.12.15"
+  }
+}
