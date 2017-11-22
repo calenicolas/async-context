@@ -8,6 +8,10 @@ En este camino, nos encontramos que cuando estamos en flujos manejados por ***as
 
 Es aquí donde este modulo tiene sentido.
 
+**Qué requiere?**
+
+Que **TODOS** los callbacks involucrados en un flujo de async, pasen por el método ***apply*** de async.
+
 **Qué hace?**
 
 Básicamente, bindea con el contexto actual las llamadas a los flows, y al callback final de los métodos de async
