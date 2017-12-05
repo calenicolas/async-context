@@ -18,6 +18,14 @@ var _module_ = {
 
         return async.series(flow, _bindCallbackWithContext(callback));
     },
+    parallel: function(flow, callback) {
+
+        return async.parallel(flow, _bindCallbackWithContext(callback));
+    },
+    waterfall: function(flow, callback) {
+
+        return async.waterfall(flow, _bindCallbackWithContext(callback));
+    },
     apply: function(callback) {
 
         var bindCallback = _bindCallbackWithContext(callback);
