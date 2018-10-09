@@ -23,8 +23,8 @@
   "homepage": "https://github.com/calenicolas/async-context#readme",
   "dependencies": {
     "async": "1.5.2",
-    "async-utils": "0.0.3",
-    "lodash": "4.15.0",
+    "async-utils": "0.0.4",
+    "lodash": "4.15.7",
     "mobile-adk_context": "0.0.2"
   },
   "devDependencies": {
