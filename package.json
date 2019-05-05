@@ -24,7 +24,7 @@
   "dependencies": {
     "async": "1.5.2",
     "async-utils": "0.0.3",
-    "lodash": "4.15.0",
+    "lodash": "4.17.11",
     "mobile-adk_context": "0.0.2"
   },
   "devDependencies": {
