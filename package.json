@@ -1,6 +1,6 @@
 {
   "name": "async-context",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Async version that allows the use of mobile-adk_context",
   "main": "index.js",
   "scripts": {
